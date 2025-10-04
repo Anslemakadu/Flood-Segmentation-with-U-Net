@@ -1,0 +1,34 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+data/__pycache__/
+test/__pycache__/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Model weights
+best_unet.pth
+*.pth
+*.pt
+
+# Jupyter Notebook
+notebooks/.ipynb_checkpoints/
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+test/__pycache__/
