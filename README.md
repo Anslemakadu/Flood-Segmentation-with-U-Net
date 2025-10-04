@@ -36,7 +36,7 @@ Our solution leverages **semantic segmentation** to classify each pixel in an im
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. **Clone the repo**
 
