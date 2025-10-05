@@ -41,7 +41,7 @@ def run_sanity(device=torch.device('cuda' if torch.cuda.is_available() else 'cpu
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-3)
     optimizer.zero_grad()
     loss.backward()
-    # check grad exists on a parameter
+    # grad exists on a parameter
     grad_exists = any(p.grad is not None for p in model.parameters())
     print("grad exists after backward:", grad_exists)
     optimizer.step()
